@@ -1,0 +1,167 @@
+/*--------------------------------------General-------------------------------*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+  font-size: 16px;
+}
+
+.margin {
+/*  margin-bottom: 40px;*/
+/*  padding-bottom: 20px;*/
+  margin-bottom:30px;
+  font-size:35px;
+  text-align: center;
+}
+
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+/*--------------------------------------Cover Page-------------------------------*/
+
+.experiment {
+  background-image: url('../img/IMG_0318 - Copy.jpg');
+  min-height: 660px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.front-page {
+  text-align:center;
+  color:white;
+  padding:200px;
+}
+
+/*--------------------------------------About Me Page-------------------------------*/
+
+#profile-pic {
+  height:530px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#profile-pic img {
+  width:100%;
+}
+
+#intro {
+  text-align: left;
+  color:black;
+}
+
+#intro img {
+  height:30px;
+  width:auto;
+}
+
+.bg-1 {
+    background-color: white;
+    color: black;
+}
+
+/*--------------------------------------Principles Page-------------------------------*/
+
+/*.bg-2 { 
+
+    background-color: #474e5d;
+    color: #ffffff;
+}*/
+
+.bg-2 {
+  background-image: url('../img/G0010044 (7) - Copy.jpg');
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../img/G0010044 (7) - Copy.jpg');
+}
+
+.principles {
+  text-align:center;
+  color:white;
+}
+
+/*--------------------------------------Experiences Page-------------------------------*/
+
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.exp-images img {
+  height:180px;
+}
+
+.abridge img {
+  width:100%;
+}
+
+.exp-images .text {
+  float:left;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/*--------------------------------------Fave Books Page-------------------------------*/
+.bg-4 { 
+    background-color: grey; 
+    color: #fff;
+}
+
+.bg-4 img {
+  height:230px;
+}
+
+.modal {
+  color:black;
+}
+/*--------------------------------------Writing-------------------------------*/
+.bg-5 {
+  background-color:white;
+  color:black;
+}
+
+.bg-5 img {
+  height:250px;
+}
+
+/*--------------------------------------Footer-------------------------------*/
+
+.bg-6 {
+  background-color:#2f2f2f;
+}
+
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: white;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+hr {
+  width:10%;
+}
+
+.bg-7 {
+  background-color:#d3d3d3;
+}
