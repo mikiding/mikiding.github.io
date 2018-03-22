@@ -299,9 +299,15 @@ html{
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Source Sans Pro', sans-serif;font-weight:700;
+  font-family: 'Source Sans Pro', sans-serif;
+/*  font-weight:700;*/
   margin:0 0 35px;
-  letter-spacing:1px;
+/*  letter-spacing:1px;*/
+}
+
+#intro {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: normal;
 }
 
 p{
@@ -312,7 +318,7 @@ p{
 @media (min-width:768px){
   p{
     font-size:18px;
-    line-height:1.6;
+    line-height:1.5;
     margin:0 0 35px}
     }
     a{
@@ -323,9 +329,9 @@ p{
       a:focus,a:hover{text-decoration:none;color:#1d9b6c}
 
 #mainNav{
-  font-family:Cabin,'Helvetica Neue',Helvetica,Arial,sans-serif;
+/*  font-family:Cabin,'Helvetica Neue',Helvetica,Arial,sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
   margin-bottom:0;
-  text-transform:uppercase;
   border-bottom:1px solid rgba(255,255,255,.3);
   background-color:#000}
 
@@ -336,8 +342,8 @@ p{
   border:1px solid #fff
   }
 
-#mainNav .navbar-brand{
-  font-weight:700}
+/*#mainNav .navbar-brand{
+  font-weight:700;}*/
 
 #mainNav a{
   color:#fff
@@ -362,7 +368,7 @@ p{
     padding-bottom:20px;
     -webkit-transition:background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;
     -moz-transition:background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;
-    transition:background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;letter-spacing:1px;
+    transition:background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;/*letter-spacing:1px;*/
     border-bottom:none;background:0 0
     }
 
@@ -415,4 +421,4 @@ p{
   .masthead .intro-body .brand-heading{
     font-size:100px
     }
-  .masthead .intro-body .intro-text{font-size:22px}}.btn-circle{font-size:26px;width:55px;height:55px;margin-top:15px;line-height:45px;-webkit-transition:background .3s ease-in-out;-moz-transition:background .3s ease-in-out;transition:background .3s ease-in-out;color:#fff;border:2px solid #fff;border-radius:100%!important;background:0 0}.btn-circle:focus,.btn-circle:hover{color:#fff;outline:0;background:rgba(255,255,255,.1)}.content-section{padding-top:150px;padding-bottom:150px}#principles{color:#fff;  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../assets/img/G0010044 (7) - Copy.jpg'); background-image: no-repeat center center scroll;background-color:#000;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}#map{width:100%;height:300px}@media (min-width:992px){.content-section{padding-top:200px;padding-bottom:200px}#map{height:350px}}.btn{font-family:Cabin,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;text-transform:uppercase;border-radius:0}.btn-default{color:#42dca3;border:1px solid #42dca3;background-color:transparent}.btn-default:focus,.btn-default:hover{color:#000;border:1px solid #42dca3;outline:0;background-color:#42dca3}ul.banner-social-buttons{margin-top:0}@media (max-width:1199px){ul.banner-social-buttons{margin-top:15px}}@media (max-width:767px){ul.banner-social-buttons li{display:block;margin-bottom:20px;padding:0}ul.banner-social-buttons li:last-child{margin-bottom:0}}footer{padding:50px 0; background-color: gray;}footer p{font-size:14px;margin:0}::-moz-selection{background:#fcfcfc;background:rgba(255,255,255,.2);text-shadow:none}::selection{background:#fcfcfc;background:rgba(255,255,255,.2);text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}#profile-pic img {width:100%;} #intro img {height:30px; width:auto;} .exp-images img {height:180px;} .abridge img {width:100%;} #books img {height:230px;} .modal {color:black;} #books {background-color: gray;} #articles {background-color:white; color:black;} #articles img {height:250px;}
+  .masthead .intro-body .intro-text{font-size:22px}}.btn-circle{font-size:26px;width:55px;height:55px;margin-top:15px;line-height:45px;-webkit-transition:background .3s ease-in-out;-moz-transition:background .3s ease-in-out;transition:background .3s ease-in-out;color:#fff;border:2px solid #fff;border-radius:100%!important;background:0 0}.btn-circle:focus,.btn-circle:hover{color:#fff;outline:0;background:rgba(255,255,255,.1)}.content-section{padding-top:150px;padding-bottom:150px}#principles{color:#fff;  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../assets/img/G0010044 (7) - Copy.jpg'); background-image: no-repeat center center scroll;background-color:#000;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}#map{width:100%;height:300px}@media (min-width:992px){.content-section{padding-top:200px;padding-bottom:200px}#map{height:350px}}.btn{     font-family: 'Source Sans Pro', sans-serif;/*font-weight:400;*/-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out;text-transform:uppercase;border-radius:0}.btn-default{color:#42dca3;border:1px solid #42dca3;background-color:transparent}.btn-default:focus,.btn-default:hover{color:#000;border:1px solid #42dca3;outline:0;background-color:#42dca3}ul.banner-social-buttons{margin-top:0}@media (max-width:1199px){ul.banner-social-buttons{margin-top:15px}}@media (max-width:767px){ul.banner-social-buttons li{display:block;margin-bottom:20px;padding:0}ul.banner-social-buttons li:last-child{margin-bottom:0}}footer{padding:50px 0; background-color: gray;}footer p{font-size:14px;margin:0}::-moz-selection{background:#fcfcfc;background:rgba(255,255,255,.2);text-shadow:none}::selection{background:#fcfcfc;background:rgba(255,255,255,.2);text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}#profile-pic img {width:100%;} #intro img {height:30px; width:auto;} .exp-images img {height:180px;} .abridge img {width:100%;} #books img {height:230px;} .modal {color:black;} #books {background-color: gray;} #articles {background-color:white; color:black;} #articles img {height:250px;}
